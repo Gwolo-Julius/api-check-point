@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header h1 {
+  font-size: 3.25rem;
+}
+.user-list {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.142);
+  border-radius: 0.5rem;
+}
+
+.user-list:hover {
+  transform: scale(1.01);
+  background-color: aliceblue;
+}
+.user-list h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 68, 0);
+
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
